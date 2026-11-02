@@ -1,0 +1,124 @@
+2026-11-02 14:06:55 - Starting LoginApplication using Java 21.0.12.1 with PID 1448 (C:\Users\tetri\OneDrive\Escritorio\Importante\Full_Stack_II_Backend\login\target\classes started by tetri in C:\Users\tetri\OneDrive\Escritorio\Importante\Full_Stack_II_Backend\login)
+2026-11-02 14:06:55 - Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-02 14:06:55 - No active profile set, falling back to 1 default profile: "default"
+2026-11-02 14:06:56 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-02 14:06:56 - Finished Spring Data repository scanning in 135 ms. Found 2 JPA repository interfaces.
+2026-11-02 14:06:56 - BeanFactory id=11e61139-740b-3e83-98b5-389f746b38d5
+2026-11-02 14:06:57 - Tomcat initialized with port 9000 (http)
+2026-11-02 14:06:57 - Starting service [Tomcat]
+2026-11-02 14:06:57 - Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-02 14:06:57 - Root WebApplicationContext: initialization completed in 2027 ms
+2026-11-02 14:06:57 - HikariPool-1 - Starting...
+2026-11-02 14:06:58 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@699bb304
+2026-11-02 14:06:58 - HikariPool-1 - Start completed.
+2026-11-02 14:06:58 - Database: jdbc:mysql://localhost:3306/login?createDatabaseIfNotExist=true&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false (MySQL 8.4)
+2026-11-02 14:06:58 - Schema history table `login`.`flyway_schema_history` does not exist yet
+2026-11-02 14:06:58 - Successfully validated 2 migrations (execution time 00:00.019s)
+2026-11-02 14:06:58 - Creating Schema History table `login`.`flyway_schema_history` ...
+2026-11-02 14:06:58 - Current version of schema `login`: << Empty Schema >>
+2026-11-02 14:06:58 - Migrating schema `login` to version "1 - create users table"
+2026-11-02 14:06:58 - Migrating schema `login` to version "2 - insert users"
+2026-11-02 14:06:58 - Successfully applied 2 migrations to schema `login`, now at version v2 (execution time 00:00.050s)
+2026-11-02 14:06:58 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-02 14:06:58 - HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-02 14:06:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-02 14:06:59 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/login?createDatabaseIfNotExist=true&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.3
+	Default catalog/schema: login/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-02 14:06:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-02 14:06:59 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-02 14:06:59 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-02 14:07:00 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-02 14:07:00 - 
+
+Using generated security password: 052967b4-f5e8-4a14-a6b6-302c32085ede
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-11-02 14:07:00 - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-11-02 14:07:01 - Eureka HTTP Client uses RestClient.
+2026-11-02 14:07:01 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-02 14:07:01 - Exposing 1 endpoint beneath base path '/actuator'
+2026-11-02 14:07:01 - Setting initial instance status as: STARTING
+2026-11-02 14:07:01 - Initializing Eureka in region us-east-1
+2026-11-02 14:07:01 - Client configured to neither register nor query for data.
+2026-11-02 14:07:01 - Discovery Client initialized at timestamp 1793639221147 with initial instances count: 0
+2026-11-02 14:07:01 - Registering application LOGIN with eureka with status UP
+2026-11-02 14:07:01 - Tomcat started on port 9000 (http) with context path '/'
+2026-11-02 14:07:01 - Updating port to 9000
+2026-11-02 14:07:01 - Started LoginApplication in 6.305 seconds (process running for 6.926)
+2026-11-02 14:07:01 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-02 14:07:01 - SpringDoc /swagger-ui/index.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-02 14:15:24 - Starting LoginApplication using Java 21.0.12.1 with PID 21668 (C:\Users\tetri\OneDrive\Escritorio\Importante\Full_Stack_II_Backend\login\target\classes started by tetri in C:\Users\tetri\OneDrive\Escritorio\Importante\Full_Stack_II_Backend\login)
+2026-11-02 14:15:24 - Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-02 14:15:24 - No active profile set, falling back to 1 default profile: "default"
+2026-11-02 14:15:25 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-02 14:15:25 - Finished Spring Data repository scanning in 120 ms. Found 2 JPA repository interfaces.
+2026-11-02 14:15:26 - BeanFactory id=11e61139-740b-3e83-98b5-389f746b38d5
+2026-11-02 14:15:26 - Tomcat initialized with port 9000 (http)
+2026-11-02 14:15:26 - Starting service [Tomcat]
+2026-11-02 14:15:26 - Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-02 14:15:26 - Root WebApplicationContext: initialization completed in 1959 ms
+2026-11-02 14:15:27 - HikariPool-1 - Starting...
+2026-11-02 14:15:27 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@206bd7a0
+2026-11-02 14:15:27 - HikariPool-1 - Start completed.
+2026-11-02 14:15:27 - Database: jdbc:mysql://localhost:3306/login?createDatabaseIfNotExist=true&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false (MySQL 8.4)
+2026-11-02 14:15:27 - Schema history table `login`.`flyway_schema_history` does not exist yet
+2026-11-02 14:15:27 - Successfully validated 2 migrations (execution time 00:00.015s)
+2026-11-02 14:15:27 - Creating Schema History table `login`.`flyway_schema_history` ...
+2026-11-02 14:15:27 - Current version of schema `login`: << Empty Schema >>
+2026-11-02 14:15:27 - Migrating schema `login` to version "1 - create users table"
+2026-11-02 14:15:27 - Migrating schema `login` to version "2 - insert users"
+2026-11-02 14:15:27 - Successfully applied 2 migrations to schema `login`, now at version v2 (execution time 00:00.048s)
+2026-11-02 14:15:27 - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-02 14:15:27 - HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-02 14:15:28 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-02 14:15:28 - HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/login?createDatabaseIfNotExist=true&serverTimezone=UTC&allowPublicKeyRetrieval=true&useSSL=false]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.3
+	Default catalog/schema: login/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-02 14:15:28 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-02 14:15:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-02 14:15:28 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-02 14:15:29 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-02 14:15:29 - 
+
+Using generated security password: 5a6b2d9e-c603-4926-a26f-2e274971d9bc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-11-02 14:15:29 - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-11-02 14:15:30 - Eureka HTTP Client uses RestClient.
+2026-11-02 14:15:30 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2026-11-02 14:15:30 - Exposing 1 endpoint beneath base path '/actuator'
+2026-11-02 14:15:30 - Setting initial instance status as: STARTING
+2026-11-02 14:15:30 - Initializing Eureka in region us-east-1
+2026-11-02 14:15:30 - Client configured to neither register nor query for data.
+2026-11-02 14:15:30 - Discovery Client initialized at timestamp 1793639730159 with initial instances count: 0
+2026-11-02 14:15:30 - Registering application LOGIN with eureka with status UP
+2026-11-02 14:15:30 - Tomcat started on port 9000 (http) with context path '/'
+2026-11-02 14:15:30 - Updating port to 9000
+2026-11-02 14:15:30 - Started LoginApplication in 5.924 seconds (process running for 6.554)
+2026-11-02 14:15:30 - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-02 14:15:30 - SpringDoc /swagger-ui/index.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-02 14:15:50 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-02 14:15:50 - Initializing Servlet 'dispatcherServlet'
+2026-11-02 14:15:50 - Completed initialization in 1 ms
+2026-11-02 14:15:50 - Init duration for springdoc-openapi is: 222 ms
