@@ -1,5 +1,13 @@
 package com.proyecto.servicios.dto;
 
-public class ApiResponse {
+import lombok.*;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class ApiResponse<T> {
+    private boolean success;
+    private String message;
+    private T data;
 }
