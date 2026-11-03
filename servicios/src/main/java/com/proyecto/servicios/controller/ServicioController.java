@@ -22,7 +22,7 @@ public class ServicioController {
         this.servicioService = servicioService;
     }
 
-    @GetMapping
+    @GetMapping("/list")
     public ResponseEntity<ApiResponse<List<ServicioDTO>>> listarServicios(
             @RequestParam(name = "soloActivos", defaultValue = "false") boolean soloActivos) {
         List<ServicioDTO> lista = soloActivos ? servicioService.listarActivos() : servicioService.listarTodos();
